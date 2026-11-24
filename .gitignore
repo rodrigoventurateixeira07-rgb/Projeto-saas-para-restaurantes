@@ -1,0 +1,56 @@
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# Dependências e ambientes Python/JavaScript
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Builds, testes e ferramentas
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+.next/
+.cache/
+
+# Dados locais e arquivos operacionais privados
+*.sqlite3
+*.sqlite3-*
+*.db
+*.log
+logs/
+media/
+uploads/
+backups/
+private/
+*.sql
+*.dump
+*.backup
+
+# Editor e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# .gitignore não remove arquivos já rastreados nem substitui revisão de commits.
